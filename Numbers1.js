@@ -2,7 +2,7 @@ let findDecimalPlaces = function() {
   //This function asks for the user for the number of decimal places
   let decimals = "";
   while (decimals == "") {
-    let userInput = Window.prompt("Enter the number of decimal places: ");
+    let userInput = prompt("Enter the number of decimal places: ");
     if (typeof(userInput) == "number" && userInput > 0) {
       if (userInput < 49) {
         decimals = userInput;
